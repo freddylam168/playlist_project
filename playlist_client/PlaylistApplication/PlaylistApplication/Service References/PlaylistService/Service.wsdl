@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="login">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="loginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="loginResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="logout">
+        <s:complexType />
+      </s:element>
+      <s:element name="logoutResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getClientPlaylistCollection">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nickname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getClientPlaylistCollectionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getClientPlaylistCollectionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPlaylist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nickname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPlaylistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getPlaylistResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createNewClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nickname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createNewClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="createNewClientResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createNewPlayList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nickname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="playlistname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createNewPlayListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="createNewPlayListResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createNewTrack">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trackTitle" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="urlLocation" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="duration" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createNewTrackResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="createNewTrackResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateClientName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nickname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newClientNickName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateClientNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateClientNameResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updatePlaylistName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nickname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newPlayname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updatePlaylistNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updatePlaylistNameResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTrackInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trackID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getTrackInfoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getTrackInfoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateTrack">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trackID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="title" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="location" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="duration" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateTrackResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="updateTrackResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removeTrack">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="trackID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removeTrackResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="removeTrackResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removePlaylist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removePlaylistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="removePlaylistResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removeClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="nickname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="removeClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="removeClientResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="voteOnPlaylist">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="playname" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="score" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="voteOnPlaylistResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="voteOnPlaylistResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="loginSoapIn">
+    <wsdl:part name="parameters" element="tns:login" />
+  </wsdl:message>
+  <wsdl:message name="loginSoapOut">
+    <wsdl:part name="parameters" element="tns:loginResponse" />
+  </wsdl:message>
+  <wsdl:message name="logoutSoapIn">
+    <wsdl:part name="parameters" element="tns:logout" />
+  </wsdl:message>
+  <wsdl:message name="logoutSoapOut">
+    <wsdl:part name="parameters" element="tns:logoutResponse" />
+  </wsdl:message>
+  <wsdl:message name="getClientPlaylistCollectionSoapIn">
+    <wsdl:part name="parameters" element="tns:getClientPlaylistCollection" />
+  </wsdl:message>
+  <wsdl:message name="getClientPlaylistCollectionSoapOut">
+    <wsdl:part name="parameters" element="tns:getClientPlaylistCollectionResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPlaylistSoapIn">
+    <wsdl:part name="parameters" element="tns:getPlaylist" />
+  </wsdl:message>
+  <wsdl:message name="getPlaylistSoapOut">
+    <wsdl:part name="parameters" element="tns:getPlaylistResponse" />
+  </wsdl:message>
+  <wsdl:message name="createNewClientSoapIn">
+    <wsdl:part name="parameters" element="tns:createNewClient" />
+  </wsdl:message>
+  <wsdl:message name="createNewClientSoapOut">
+    <wsdl:part name="parameters" element="tns:createNewClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="createNewPlayListSoapIn">
+    <wsdl:part name="parameters" element="tns:createNewPlayList" />
+  </wsdl:message>
+  <wsdl:message name="createNewPlayListSoapOut">
+    <wsdl:part name="parameters" element="tns:createNewPlayListResponse" />
+  </wsdl:message>
+  <wsdl:message name="createNewTrackSoapIn">
+    <wsdl:part name="parameters" element="tns:createNewTrack" />
+  </wsdl:message>
+  <wsdl:message name="createNewTrackSoapOut">
+    <wsdl:part name="parameters" element="tns:createNewTrackResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateClientNameSoapIn">
+    <wsdl:part name="parameters" element="tns:updateClientName" />
+  </wsdl:message>
+  <wsdl:message name="updateClientNameSoapOut">
+    <wsdl:part name="parameters" element="tns:updateClientNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="updatePlaylistNameSoapIn">
+    <wsdl:part name="parameters" element="tns:updatePlaylistName" />
+  </wsdl:message>
+  <wsdl:message name="updatePlaylistNameSoapOut">
+    <wsdl:part name="parameters" element="tns:updatePlaylistNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="getTrackInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:getTrackInfo" />
+  </wsdl:message>
+  <wsdl:message name="getTrackInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:getTrackInfoResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateTrackSoapIn">
+    <wsdl:part name="parameters" element="tns:updateTrack" />
+  </wsdl:message>
+  <wsdl:message name="updateTrackSoapOut">
+    <wsdl:part name="parameters" element="tns:updateTrackResponse" />
+  </wsdl:message>
+  <wsdl:message name="removeTrackSoapIn">
+    <wsdl:part name="parameters" element="tns:removeTrack" />
+  </wsdl:message>
+  <wsdl:message name="removeTrackSoapOut">
+    <wsdl:part name="parameters" element="tns:removeTrackResponse" />
+  </wsdl:message>
+  <wsdl:message name="removePlaylistSoapIn">
+    <wsdl:part name="parameters" element="tns:removePlaylist" />
+  </wsdl:message>
+  <wsdl:message name="removePlaylistSoapOut">
+    <wsdl:part name="parameters" element="tns:removePlaylistResponse" />
+  </wsdl:message>
+  <wsdl:message name="removeClientSoapIn">
+    <wsdl:part name="parameters" element="tns:removeClient" />
+  </wsdl:message>
+  <wsdl:message name="removeClientSoapOut">
+    <wsdl:part name="parameters" element="tns:removeClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="voteOnPlaylistSoapIn">
+    <wsdl:part name="parameters" element="tns:voteOnPlaylist" />
+  </wsdl:message>
+  <wsdl:message name="voteOnPlaylistSoapOut">
+    <wsdl:part name="parameters" element="tns:voteOnPlaylistResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiceSoap">
+    <wsdl:operation name="login">
+      <wsdl:input message="tns:loginSoapIn" />
+      <wsdl:output message="tns:loginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="logout">
+      <wsdl:input message="tns:logoutSoapIn" />
+      <wsdl:output message="tns:logoutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getClientPlaylistCollection">
+      <wsdl:input message="tns:getClientPlaylistCollectionSoapIn" />
+      <wsdl:output message="tns:getClientPlaylistCollectionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPlaylist">
+      <wsdl:input message="tns:getPlaylistSoapIn" />
+      <wsdl:output message="tns:getPlaylistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createNewClient">
+      <wsdl:input message="tns:createNewClientSoapIn" />
+      <wsdl:output message="tns:createNewClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createNewPlayList">
+      <wsdl:input message="tns:createNewPlayListSoapIn" />
+      <wsdl:output message="tns:createNewPlayListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createNewTrack">
+      <wsdl:input message="tns:createNewTrackSoapIn" />
+      <wsdl:output message="tns:createNewTrackSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateClientName">
+      <wsdl:input message="tns:updateClientNameSoapIn" />
+      <wsdl:output message="tns:updateClientNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updatePlaylistName">
+      <wsdl:input message="tns:updatePlaylistNameSoapIn" />
+      <wsdl:output message="tns:updatePlaylistNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getTrackInfo">
+      <wsdl:input message="tns:getTrackInfoSoapIn" />
+      <wsdl:output message="tns:getTrackInfoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateTrack">
+      <wsdl:input message="tns:updateTrackSoapIn" />
+      <wsdl:output message="tns:updateTrackSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="removeTrack">
+      <wsdl:input message="tns:removeTrackSoapIn" />
+      <wsdl:output message="tns:removeTrackSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="removePlaylist">
+      <wsdl:input message="tns:removePlaylistSoapIn" />
+      <wsdl:output message="tns:removePlaylistSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="removeClient">
+      <wsdl:input message="tns:removeClientSoapIn" />
+      <wsdl:output message="tns:removeClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="voteOnPlaylist">
+      <wsdl:input message="tns:voteOnPlaylistSoapIn" />
+      <wsdl:output message="tns:voteOnPlaylistSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiceSoap" type="tns:ServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="login">
+      <soap:operation soapAction="http://tempuri.org/login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logout">
+      <soap:operation soapAction="http://tempuri.org/logout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getClientPlaylistCollection">
+      <soap:operation soapAction="http://tempuri.org/getClientPlaylistCollection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPlaylist">
+      <soap:operation soapAction="http://tempuri.org/getPlaylist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createNewClient">
+      <soap:operation soapAction="http://tempuri.org/createNewClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createNewPlayList">
+      <soap:operation soapAction="http://tempuri.org/createNewPlayList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createNewTrack">
+      <soap:operation soapAction="http://tempuri.org/createNewTrack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateClientName">
+      <soap:operation soapAction="http://tempuri.org/updateClientName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updatePlaylistName">
+      <soap:operation soapAction="http://tempuri.org/updatePlaylistName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTrackInfo">
+      <soap:operation soapAction="http://tempuri.org/getTrackInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateTrack">
+      <soap:operation soapAction="http://tempuri.org/updateTrack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeTrack">
+      <soap:operation soapAction="http://tempuri.org/removeTrack" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removePlaylist">
+      <soap:operation soapAction="http://tempuri.org/removePlaylist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeClient">
+      <soap:operation soapAction="http://tempuri.org/removeClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="voteOnPlaylist">
+      <soap:operation soapAction="http://tempuri.org/voteOnPlaylist" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiceSoap12" type="tns:ServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="login">
+      <soap12:operation soapAction="http://tempuri.org/login" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="logout">
+      <soap12:operation soapAction="http://tempuri.org/logout" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getClientPlaylistCollection">
+      <soap12:operation soapAction="http://tempuri.org/getClientPlaylistCollection" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPlaylist">
+      <soap12:operation soapAction="http://tempuri.org/getPlaylist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createNewClient">
+      <soap12:operation soapAction="http://tempuri.org/createNewClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createNewPlayList">
+      <soap12:operation soapAction="http://tempuri.org/createNewPlayList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createNewTrack">
+      <soap12:operation soapAction="http://tempuri.org/createNewTrack" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateClientName">
+      <soap12:operation soapAction="http://tempuri.org/updateClientName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updatePlaylistName">
+      <soap12:operation soapAction="http://tempuri.org/updatePlaylistName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getTrackInfo">
+      <soap12:operation soapAction="http://tempuri.org/getTrackInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateTrack">
+      <soap12:operation soapAction="http://tempuri.org/updateTrack" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeTrack">
+      <soap12:operation soapAction="http://tempuri.org/removeTrack" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removePlaylist">
+      <soap12:operation soapAction="http://tempuri.org/removePlaylist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeClient">
+      <soap12:operation soapAction="http://tempuri.org/removeClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="voteOnPlaylist">
+      <soap12:operation soapAction="http://tempuri.org/voteOnPlaylist" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="ServiceSoap" binding="tns:ServiceSoap">
+      <soap:address location="http://localhost:57597/Service.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiceSoap12" binding="tns:ServiceSoap12">
+      <soap12:address location="http://localhost:57597/Service.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

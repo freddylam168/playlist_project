@@ -1,0 +1,117 @@
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.ResolveComReference.cache
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.pdb
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.xml
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbprojResolveAssemblyReference.cache
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.AddPlaylist.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.EditPlaylist.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.frmLogin.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Resources.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.PlaylistApp.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Rate.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchPlaylist.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchTrack.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchUser.resources
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.GenerateResource.Cache
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.exe
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.xml
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.pdb
+C:\Users\fredbred\Documents\GitHub\WebServices\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe.config
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe.config
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\Interop.ShockwaveFlashObjects.dll
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.ResolveComReference.cache
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.exe
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.xml
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.pdb
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.pdb
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.xml
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\Interop.ShockwaveFlashObjects.dll
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbprojResolveAssemblyReference.cache
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.AddPlaylist.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.EditPlaylist.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.frmLogin.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Resources.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.PlaylistApp.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Rate.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Remove.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchPlaylist.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchTrack.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchUser.resources
+J:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.GenerateResource.Cache
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe.config
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.ResolveComReference.cache
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.exe
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.xml
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.pdb
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbprojResolveAssemblyReference.cache
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.AddPlaylist.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.EditPlaylist.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.frmLogin.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Resources.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.PlaylistApp.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Rate.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Remove.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchPlaylist.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchTrack.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchUser.resources
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.GenerateResource.Cache
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.pdb
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.xml
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Users\Freddy\Desktop\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe.config
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\Interop.ShockwaveFlashObjects.dll
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.ResolveComReference.cache
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.exe
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.xml
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.pdb
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbprojResolveAssemblyReference.cache
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.AddPlaylist.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.EditPlaylist.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.frmLogin.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Resources.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.PlaylistApp.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Rate.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Remove.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchPlaylist.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchUser.resources
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.GenerateResource.Cache
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.pdb
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.xml
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\Interop.ShockwaveFlashObjects.dll
+G:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe.config
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\Interop.ShockwaveFlashObjects.dll
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.ResolveComReference.cache
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.exe
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.xml
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.pdb
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.exe
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.pdb
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\PlaylistApplication.xml
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\Interop.ShockwaveFlashObjects.dll
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbprojResolveAssemblyReference.cache
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.AddPlaylist.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.EditPlaylist.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.frmLogin.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Resources.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.PlaylistApp.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Rate.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.Remove.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchPlaylist.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.SearchUser.resources
+F:\Web Services Project\playlist_client\PlaylistApplication\PlaylistApplication\obj\Debug\PlaylistApplication.vbproj.GenerateResource.Cache
